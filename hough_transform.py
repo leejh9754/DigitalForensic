@@ -23,4 +23,5 @@ for line in lines:
 cv2.imshow('edges', edges)
 cv2.imshow('result', img)
 cv2.waitKey()
+cv2.imwrite('./image2-hough.jpg', img)
 cv2.destroyAllWindows()
